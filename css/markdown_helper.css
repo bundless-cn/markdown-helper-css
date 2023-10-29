@@ -8,34 +8,67 @@
   /* 图片下面的文案 */
 }
 .mdh-post_flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 .mdh-post_flex_1 {
-  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 .mdh-post_flex_2 {
-  flex: 2;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 .mdh-post_flex_p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 0;
   margin-bottom: 16px;
 }
 .mdh-post_flex_center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .mdh-post_flex_center_horizontal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .mdh-post_flex_center_center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
-+ .mdh-post_flex_center_center-post_flex_center_center {
+.mdh-post_flex_center_center + .mdh-post_flex_center_center {
   margin-top: 8px;
 }
 .mdh-post_paddingLeftIntend2 {
@@ -77,9 +110,12 @@
   text-align: justify;
 }
 .mdh-post_block-item {
-  flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
-+ .mdh-post_block-item-post_block-item {
+.mdh-post_block-item + .mdh-post_block-item {
   margin-left: 30px;
 }
 .mdh-p_bold {
@@ -102,5 +138,3 @@
 .mdh-_image_caption.extra {
   font-style: italic;
 }
-
-/*# sourceMappingURL=markdown_helper.css.map */
