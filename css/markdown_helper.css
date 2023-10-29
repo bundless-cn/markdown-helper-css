@@ -124,17 +124,11 @@
 .mdh-post_mt16 {
   margin-top: 16px;
 }
-.mdh-p_bold {
-  font-weight: 600;
-}
-.mdh-p_mt16_p {
-  margin-top: 16px;
-}
 .mdh-post_image_caption {
   text-align: center !important;
   font-size: 12px !important;
   margin-top: -10px !important;
 }
-.mdh-post_image_caption.extra {
+.mdh-post_image_caption .extra {
   font-style: italic;
 }
