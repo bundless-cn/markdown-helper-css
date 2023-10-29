@@ -28,9 +28,9 @@ $prefix: '.mdh';
     align-items: center;
     justify-content: center;
     text-align: center;
-    + &-post_flex_center_center {
-      margin-top: 8px;
-    }
+  }
+  &-post_flex_center_center + &-post_flex_center_center {
+    margin-top: 8px;
   }
 
   &-post_paddingLeftIntend2 {
@@ -81,9 +81,10 @@ $prefix: '.mdh';
   /* 元素之间有间距 */
   &-post_block-item {
     flex: 1;
-    +&-post_block-item {
-      margin-left: 30px;
-    }
+  }
+
+  &-post_block-item + &-post_block-item {
+    margin-left: 30px;
   }
 
   &-p_bold {

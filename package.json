@@ -1,0 +1,28 @@
+{
+  "name": "markdown_helper_css",
+  "version": "1.0.0",
+  "description": "Help the markdown editor to display more!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bundless-cn/markdown_helper_css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bundless-cn/markdown_helper_css/issues"
+  },
+  "homepage": "https://github.com/bundless-cn/markdown_helper_css#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.69.5"
+  }
+}
