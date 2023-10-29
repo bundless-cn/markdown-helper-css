@@ -118,23 +118,23 @@
 .mdh-post_block-item + .mdh-post_block-item {
   margin-left: 30px;
 }
+.mdh-post_bold {
+  font-weight: 600;
+}
+.mdh-post_mt16 {
+  margin-top: 16px;
+}
 .mdh-p_bold {
   font-weight: 600;
 }
 .mdh-p_mt16_p {
   margin-top: 16px;
 }
-.mdh-div_pt16_div {
-  padding-top: 16px;
-}
-.mdh-p_center {
-  text-align: center;
-}
-.mdh-_image_caption {
+.mdh-post_image_caption {
   text-align: center !important;
   font-size: 12px !important;
   margin-top: -10px !important;
 }
-.mdh-_image_caption.extra {
+.mdh-post_image_caption.extra {
   font-style: italic;
 }

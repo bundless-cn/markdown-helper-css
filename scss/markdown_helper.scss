@@ -86,21 +86,20 @@ $prefix: '.mdh';
   &-post_block-item + &-post_block-item {
     margin-left: 30px;
   }
-
+  &-post_bold {
+    font-weight: 600;
+  }
+  &-post_mt16 {
+    margin-top: 16px;
+  }
   &-p_bold {
     font-weight: 600;
   }
   &-p_mt16_p {
     margin-top: 16px;
   }
-  &-div_pt16_div {
-    padding-top: 16px;
-  }
-  &-p_center {
-    text-align: center;
-  }
   /* 图片下面的文案 */
-  &-_image_caption {
+  &-post_image_caption {
     text-align: center !important;
     font-size: 12px !important;
     margin-top: -10px !important;
